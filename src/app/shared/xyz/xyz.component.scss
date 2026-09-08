@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 350px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #ccc;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  background: black;
+  color: white;
+}
+
+span {
+  display: block;
+  margin-top: 15px;
+  text-align: center;
+}
